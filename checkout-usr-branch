@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+usr=${1:-$USER}
+git checkout -b edit-$usr
+git fetch upstream
+git reset --hard upstream/master

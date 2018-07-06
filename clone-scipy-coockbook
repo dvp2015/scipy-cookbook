@@ -1,0 +1,4 @@
+git clone git@github.com:dvp2015/SciPy-CookBook.git
+cd SciPy-CookBook
+git remote add upstream https://github.com/scipy/scipy-cookbook.git
+cd ipython
